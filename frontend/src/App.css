@@ -1,0 +1,57 @@
+.app {
+    width: 400px;
+    height: 380px;
+    margin: auto;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: cornflowerblue;
+}
+
+.messages {
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    top: 0;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.inputBox {
+    position: absolute;
+    width:100%;
+    height:30px;
+    bottom:0px;
+}
+
+.text {
+    position: absolute;
+    top:0;
+    right:0;
+    left: 0;
+    bottom:0;
+    margin: auto;
+    width:88%;
+    height:100%;
+    
+}
+
+.submitBtn {
+    position: absolute;
+    right: 5px;
+    width:15%;
+    height:100%;
+}
+
+.YourChat {
+}
+
+.MyChat {
+    text-align: right;
+}
